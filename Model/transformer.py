@@ -1,12 +1,12 @@
 from torch import nn
 import torch
-from featureExtractor.py import FeatureExtractor
-from PositionalEncoding.py import PositionalEncoding1D
-from PositionalEncoding.py import Adaptive2DPositionEncoder
-from PositionalEncoding.py import PositionalEncodingLearned
-from PositionalEncoding.py import PositionalEncodingVaswani
-from encoder.py import TransformerEncoder
-from decoder.py import TransformerDecoder
+from featureExtractor import FeatureExtractor
+from PositionalEncoding import PositionalEncoding1D
+from PositionalEncoding import Adaptive2DPositionEncoder
+from PositionalEncoding import PositionalEncodingLearned
+from PositionalEncoding import PositionalEncodingVaswani
+from encoder import TransformerEncoder
+from decoder import TransformerDecoder
 
 
 
