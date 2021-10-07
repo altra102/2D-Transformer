@@ -1,7 +1,7 @@
 from tqdm.notebook import tqdm #use normal tqdm if in shell and not in notebook
 import torch
 #from crohmeDataset.py import decode_label 
-from iamDataset.py import decode_label  #import which ever function for used dataset
+from iamDataset import decode_label  #import which ever function for used dataset
 
 
 def inference_encoder(model, src):
