@@ -1,6 +1,6 @@
 from torch import nn
-from blocks.py import NormLayer, FeedForward1D
-from attention.py import MultiHeadAttention
+from blocks import NormLayer, FeedForward1D
+from attention import MultiHeadAttention
 
 
 class TransformerDecoder(nn.Module):
