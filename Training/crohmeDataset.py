@@ -4,7 +4,7 @@ import numpy as np
 from torch import Tensor
 import csv
 from os import chdir
-from preprocessfunctions.py import normalization
+from preprocessfunctions import normalization
 
 class dict_dataset(Dataset):
     def __init__(self, data_dict, symbol_encoder, pad, partition='train', transform=None):
