@@ -2,7 +2,7 @@ from torch.utils.data import Dataset
 from torchvision import transforms
 import numpy as np
 from torch import Tensor
-from preprocessfunctions.py import normalization
+from preprocessfunctions import normalization
 
 
 class dict_dataset(Dataset):
