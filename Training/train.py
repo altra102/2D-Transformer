@@ -1,3 +1,4 @@
+import torch
 from torch.nn.utils import clip_grad_norm_
 from torch import no_grad, nn
 from tqdm.notebook import tqdm #use normal tqdm if in shell and not in notebook
