@@ -1,10 +1,10 @@
 from torch import nn
 import torch
 from featureExtractor import FeatureExtractor
-from PositionalEncoding import PositionalEncoding1D
-from PositionalEncoding import Adaptive2DPositionEncoder
-from PositionalEncoding import PositionalEncodingLearned
-from PositionalEncoding import PositionalEncodingVaswani
+from positionalEncoding import PositionalEncoding1D
+from positionalEncoding import Adaptive2DPositionEncoder
+from positionalEncoding import PositionalEncodingLearned
+from positionalEncoding import PositionalEncodingVaswani
 from encoder import TransformerEncoder
 from decoder import TransformerDecoder
 
